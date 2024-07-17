@@ -93,9 +93,9 @@ You must handle the Authentication of the end-user yourself and then pass it to 
 To authenticate the user, you can refer to the `<LoginZendeskGuide/>` component.
 This code particular posts the JWT over and redirects to the specified Zendesk Help Center.
 
-    <form ref={formRef} action="https://bursamy1704942572.zendesk.com/access/jwt" method="post">
+    <form ref={formRef} action="https://agridencepteltd.zendesk.com/access/jwt" method="post">
         <input ref={inputRef} type="hidden" name="jwt"></input>
-        <input type="hidden" name="return_to" value="https://mybursa.zendesk.com"></input>
+        <input type="hidden" name="return_to" value="https://agridencepteltd.zendesk.com"></input>
       </form>
 
 ## Generating the JWT Token
